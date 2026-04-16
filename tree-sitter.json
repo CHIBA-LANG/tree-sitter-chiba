@@ -1,0 +1,21 @@
+{
+  "grammars": [
+    {
+      "name": "chiba",
+      "camelcase": "Chiba",
+      "scope": "source.chiba",
+      "path": ".",
+      "file-types": ["chiba", "cbi"],
+      "highlights": "queries/highlights.scm",
+      "injection-regex": "^chiba$"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "description": "Tree-sitter grammar for the Chiba programming language",
+    "repository": "https://github.com/chiba-lang/tree-sitter-chiba",
+    "links": {
+      "repository": "https://github.com/chiba-lang/tree-sitter-chiba"
+    }
+  }
+}
